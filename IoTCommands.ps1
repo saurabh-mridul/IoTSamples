@@ -56,14 +56,3 @@ az iot dps linked-hub list --dps-name $dpsName --output table
 $iotHubConnectionString = az iot hub show-connection-string --name $iotHubName
 az iot dps linked-hub create --dps-name $dpsName -g $resourceGroup --connection-string $iotHubConnectionString --location $location
 az iot dps linked-hub show --dps-name $dpsName -g $resourceGroup --linked-hub $iotHubName
-
-
-
-
-
-
-
-
-
-
-
