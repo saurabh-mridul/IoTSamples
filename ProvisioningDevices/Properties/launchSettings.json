@@ -1,0 +1,14 @@
+{
+  "profiles": {
+    "ProvisioningDevices": {
+      "commandName": "Project",
+      "environmentVariables": {
+        "globalDeviceEndpoint": "global.azure-devices-provisioning.net",
+        "scopeId": "",
+        "primaryKey": "",
+        "secondaryKey": "",
+        "devicesToSpin": "5"
+      }
+    }
+  }
+}
