@@ -14,12 +14,12 @@ az account show
 
 
 # parameters 
-$subscriptionId =  '67e453d4-ddcf-47f0-9b77-0fb6098bca38'
-$resourceGroup = 'msv-group'
-$location = 'West US'
-$iotHubName = 'msv-iot-hub'
-$deviceId = 'device01'
-$dpsName = 'msv-iot-dps'
+$subscriptionId =  '<subscription-name>'
+$resourceGroup = '<resource-group-name>'
+$location = '<location>'
+$iotHubName = '<iot-hub-name>'
+$deviceId = '<device-name>'
+$dpsName = '<dps-name>'
 
 az iot hub list 
 az group create --name $resourceGroup --location $location
